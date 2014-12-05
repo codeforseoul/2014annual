@@ -15,3 +15,6 @@ Run
 
     jekyll serve -w
 
+Credit
+------
+[2013.codeforamerica.org](https://github.com/codeforamerica/annual)
