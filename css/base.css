@@ -9,6 +9,9 @@ p {
   line-height: 30px !important;
 }
 
+.navbar .brand {
+  padding: 6px 20px 14px 20px;
+}
 /* line 7, ../sass/_application-logos.scss */
 .appspop {
   background-image: url("../img/apps_logos.png");
@@ -2006,6 +2009,7 @@ li {
 
 .press img {
   vertical-align: inherit;
+  margin-bottom: 23px;
 }
 
 /* line 119, ../sass/_press.scss */
@@ -2968,6 +2972,10 @@ input[type="text"] {
 /* line 475, ../sass/base.scss */
 .bioleft p {
   text-align: right;
+}
+
+.bioright .award{
+  opacity: 0.7;
 }
 
 .bioright .codeplus {
