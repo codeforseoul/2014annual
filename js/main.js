@@ -172,7 +172,8 @@ $(function(){
 
   $('.morefellowspop').popover({
     placement: 'top',
-    trigger: 'hover'
+    trigger: 'hover',
+    html: true
   });
 
   $('.appspop').popover({

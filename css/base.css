@@ -3,6 +3,12 @@
 /* Logos
 /*
 /*****************************************************************************/
+
+/* Customized */
+p {
+  line-height: 30px !important;
+}
+
 /* line 7, ../sass/_application-logos.scss */
 .appspop {
   background-image: url("../img/apps_logos.png");
@@ -1536,7 +1542,6 @@ li {
   .network .bios h5 {
     font-size: 17px;
   }
-
   /* line 88, ../sass/_media.scss */
   #loading img {
     width: 300px;
@@ -1999,8 +2004,8 @@ li {
   text-align: left;
 }
 
-.press a:hover {
-  text-decoration: none;
+.press img {
+  vertical-align: inherit;
 }
 
 /* line 119, ../sass/_press.scss */
@@ -2134,7 +2139,7 @@ a.startupspop:hover {
 
 /* line 13, ../sass/_getinvolved.scss */
 .getinvolved.joinus {
-  padding: 30px 10% 45px;
+  padding: 100px 10% 45px;
   text-align: center;
 }
 
@@ -2965,6 +2970,16 @@ input[type="text"] {
   text-align: right;
 }
 
+.bioright .codeplus {
+  color: #6CC644;
+  font-size: 15px;
+}
+.bioright .codeminus {
+  color: #922200;
+  font-size: 15px;
+}
+
+
 /* line 480, ../sass/base.scss */
 .bioright,
 .apps .bioright {
@@ -3425,7 +3440,7 @@ img.progicons {
   font-family: "Sentinel SSm A", "Sentinel SSm B", "Sentinel Book", "Georgia", Times, sans-serif;
   font-size: 20px;
   font-weight: 100;
-  line-height: 24px;
+  line-height: 30px;
   margin-bottom: 10px;
 }
 

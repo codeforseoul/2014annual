@@ -18,4 +18,5 @@ Run
 Credit
 ------
 CC BY-SA, [@Code for America](https://github.com/codeforamerica/annual)
+
 [LICENSE](LICENSE)
