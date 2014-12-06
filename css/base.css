@@ -595,6 +595,10 @@ a.appspop:hover {
   background: url("../img/cfs/background/bg_thanks.png") no-repeat scroll right center / cover transparent;
 }
 
+.pagebg.bg_join {
+  background: url("../img/cfs/background/bg_join.png") no-repeat scroll right center / cover transparent;
+}
+
 /* line 17, ../sass/_backgrounds.scss */
 .pagebg.imagestreetmixback {
   background: url("../img/streetmixback.jpg") no-repeat;
