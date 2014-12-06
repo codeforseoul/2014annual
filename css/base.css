@@ -571,6 +571,30 @@ a.appspop:hover {
   z-index: -5;
 }
 
+.pagebg.bg_page1 {
+  background: url("../img/cfs/background/bg_page1.png") no-repeat scroll right center / cover transparent;
+}
+
+.pagebg.bg_page2 {
+  background: url("../img/cfs/background/bg_page2.png") no-repeat scroll right center / cover transparent;
+}
+
+.pagebg.bg_page3 {
+  background: url("../img/cfs/background/bg_page3.png") no-repeat scroll right center / cover transparent;
+}
+
+.pagebg.bg_page6 {
+  background: url("../img/cfs/background/bg_page6.png") no-repeat scroll right center / cover transparent;
+}
+
+.pagebg.bg_hacknight {
+  background: url("../img/cfs/background/bg_hacknight.png") no-repeat scroll right center / cover transparent;
+}
+
+.pagebg.bg_thanks {
+  background: url("../img/cfs/background/bg_thanks.png") no-repeat scroll right center / cover transparent;
+}
+
 /* line 17, ../sass/_backgrounds.scss */
 .pagebg.imagestreetmixback {
   background: url("../img/streetmixback.jpg") no-repeat;
@@ -1130,10 +1154,9 @@ a.appspop:hover {
   text-align: center;
 }
 
-.moreteamfellowspop {
-  background-size: 100px;
+.morefellowspop.team {
   float: left;
-  width: 100px;
+  width: 200px;
   height: 100px;
   margin: 20px 20px 0 0;
 }
@@ -1972,123 +1995,8 @@ li {
   text-align: left;
 }
 
-/* line 19, ../sass/_press.scss */
-.press .atlanticcities,
-.press .latimes,
-.press .usatoday,
-.press .pbs,
-.press .time,
-.press .cnet,
-.press .details,
-.press .globaljournal,
-.press .fastco {
-  height: 40px;
-  margin-bottom: 30px;
-}
-
-/* line 30, ../sass/_press.scss */
-.press .pbs:hover,
-.press .time:hover,
-.press .details:hover,
-.press .globaljournal:hover,
-.press .fastco:hover {
-  background-position: 0 -40px;
-}
-
-/* line 38, ../sass/_press.scss */
-.press .atlanticcities:hover,
-.press .usatoday:hover,
-.press .pbs:hover,
-.press .cnet:hover {
-  background-position: 0 -60px;
-}
-
-/* .7895 */
-/* line 44, ../sass/_press.scss */
-.press .atlanticcities {
-  background-image: url("../img/atlanticcities.png");
-  background-size: 145px;
-  width: 145px;
-  height: 60px;
-}
-
-/* line 51, ../sass/_press.scss */
-.press .latimes {
-  background-image: url("../img/losangelestimes.png");
-  background-size: 340px;
-  width: 340px;
-}
-
-/* line 57, ../sass/_press.scss */
-.press .usatoday {
-  background-image: url("../img/usatoday.png");
-  background-size: 129px;
-  width: 129px;
-  height: 60px;
-}
-
-/* line 64, ../sass/_press.scss */
-.press .pbs {
-  background-image: url("../img/pbs.png");
-  background-size: 156px;
-  width: 156px;
-  height: 60px;
-}
-
-/* line 71, ../sass/_press.scss */
-.press .time {
-  background-image: url("../img/time.png");
-  background-size: 146px;
-  width: 146px;
-}
-
-/* line 77, ../sass/_press.scss */
-.press .cnet {
-  background-image: url("../img/cnet.png");
-  background-size: 81px;
-  width: 81px;
-  height: 60px;
-}
-
-/* line 84, ../sass/_press.scss */
-.press .details {
-  background-image: url("../img/details.png");
-  background-size: 177px;
-  width: 177px;
-}
-
-/* line 90, ../sass/_press.scss */
-.press .globaljournal {
-  background-image: url("../img/globaljournal.png");
-  background-size: 178px;
-  width: 178px;
-}
-
-/* line 96, ../sass/_press.scss */
-.press .fastco {
-  background-image: url("../img/fastco.png");
-  background-size: 281px;
-  width: 281px;
-}
-
-/* line 102, ../sass/_press.scss */
-.press .latimes:hover {
-  background-position: 0 -40px;
-}
-
-/* line 107, ../sass/_press.scss */
-.press .msnbc:hover {
-  background-position: 0 -50px;
-}
-
-/* line 111, ../sass/_press.scss */
-.press .details:hover {
-  background-position: 0 -40px;
-}
-
-/* line 115, ../sass/_press.scss */
-.press .globaljournal:hover {
-  background-position: 0 -45px;
+.press a:hover {
+  text-decoration: none;
 }
 
 /* line 119, ../sass/_press.scss */
@@ -2222,7 +2130,8 @@ a.startupspop:hover {
 
 /* line 13, ../sass/_getinvolved.scss */
 .getinvolved.joinus {
-  padding: 30px 0px 45px;
+  padding: 30px 10% 45px;
+  text-align: center;
 }
 
 /* line 17, ../sass/_getinvolved.scss */
@@ -2282,31 +2191,8 @@ a.startupspop:hover {
   border-bottom: #C82A45 solid 1px;
 }
 
-/* line 65, ../sass/_getinvolved.scss */
-.getinvolved span {
-  font-weight: 700;
-}
-
-/* line 69, ../sass/_getinvolved.scss */
-.getinvolved li {
-  margin-bottom: 15px;
-  font-size: 20px;
-  font-weight: 300;
-}
-
-/* line 75, ../sass/_getinvolved.scss */
-.getinvolved form {
-  background: rgba(214, 214, 214, 0.7);
-  padding: 25px 30px;
-  width: 50%;
-  margin: 25px auto 10px auto;
-  text-align: center;
-}
-
-/* line 83, ../sass/_getinvolved.scss */
-.getinvolved label {
-  color: #000;
-  margin-right: 10px;
+.getinvolved button a {
+  color: #fff;
 }
 
 /*****************************************************************************/
