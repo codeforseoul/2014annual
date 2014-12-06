@@ -12,6 +12,7 @@ p {
 .navbar .brand {
   padding: 6px 20px 14px 20px;
 }
+
 /* line 7, ../sass/_application-logos.scss */
 .appspop {
   background-image: url("../img/apps_logos.png");
@@ -2196,7 +2197,9 @@ a.startupspop:hover {
 .getinvolved a {
   color: #000;
 }
-
+.getinvolved a.btn {
+  color: #fff;
+}
 /* line 60, ../sass/_getinvolved.scss */
 .getinvolved a:hover,
 .companies a:hover {
@@ -2976,6 +2979,7 @@ input[type="text"] {
 
 .bioright .award{
   opacity: 0.7;
+  text-shadow: none !important;
 }
 
 .bioright .codeplus {
