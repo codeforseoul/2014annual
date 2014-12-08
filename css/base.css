@@ -4,15 +4,6 @@
 /*
 /*****************************************************************************/
 
-/* Customized */
-p {
-  line-height: 30px !important;
-}
-
-.navbar .brand {
-  padding: 6px 20px 14px 20px;
-}
-
 /* line 7, ../sass/_application-logos.scss */
 .appspop {
   background-image: url("../img/apps_logos.png");
@@ -1645,359 +1636,15 @@ li {
     padding-left: 20px;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 480px) {
+@media only screen and (max-width: 767px) and (max-width: 480px) {
+  .page.quote h1, .page.story h1 {
+    font-size: 20px;
+    line-height: 60px;
+  }
   /* line 173, ../sass/_media.scss */
   .sidebar {
     display: none;
   }
-}
-
-/*****************************************************************************/
-/*
-/* Map styling
-/*
-/*****************************************************************************/
-/* line 10, ../sass/_map.scss */
-#mapInset {
-  position: absolute;
-  bottom: 0;
-  margin: 20px;
-  right: 0;
-  border: 3px solid #fff;
-  height: 200px;
-  width: 20%;
-}
-
-/* line 20, ../sass/_map.scss */
-#map {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-/* line 24, ../sass/_map.scss */
-#mapcontainer {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-/* line 28, ../sass/_map.scss */
-#map.apply {
-  position: fixed !important;
-}
-
-/* line 32, ../sass/_map.scss */
-#marker {
-  position: absolute;
-  margin-top: -25px;
-  margin-left: -25px;
-  width: 50px;
-  height: 50px;
-  display: none;
-  pointer-events: all;
-}
-
-/* line 43, ../sass/_map.scss */
-#markerInset {
-  position: absolute;
-  margin-top: -25px;
-  margin-left: -25px;
-  width: 50px;
-  height: 50px;
-  display: none;
-  pointer-events: all;
-}
-
-/* line 53, ../sass/_map.scss */
-#markerHighlight {
-  position: absolute;
-  margin-top: -25px;
-  margin-left: -25px;
-  width: 50px;
-  height: 50px;
-  display: none;
-  pointer-events: all;
-}
-
-/* line 63, ../sass/_map.scss */
-#summit .dropdown-menu {
-  float: right;
-  position: relative;
-  top: -15px;
-  margin-right: 60px;
-}
-
-/* line 70, ../sass/_map.scss */
-.citycardscontainer {
-  display: none;
-}
-
-/* line 74, ../sass/_map.scss */
-.citycard .tagline {
-  text-shadow: none;
-}
-
-/* line 78, ../sass/_map.scss */
-.citycard .tagline p {
-  font-size: 16px;
-  margin-top: 0px;
-}
-
-/* line 83, ../sass/_map.scss */
-.citycard a {
-  color: #000;
-}
-
-/* line 87, ../sass/_map.scss */
-.citycard .partnersection {
-  width: 190px;
-}
-
-/* line 91, ../sass/_map.scss */
-.citycard ul {
-  margin-left: 0px;
-}
-
-/* line 95, ../sass/_map.scss */
-.citycard hr {
-  border: solid 1px #C82A45;
-  margin: 10px 0;
-}
-
-/* line 100, ../sass/_map.scss */
-.citycard[data-year="2011"] h4 {
-  background: #FED100;
-}
-
-/* line 104, ../sass/_map.scss */
-.citycard[data-year="2011"] hr {
-  border: solid 1px #FED100;
-}
-
-/* line 108, ../sass/_map.scss */
-.citycard[data-year="2011"] h5 {
-  color: #FED100;
-}
-
-/* line 112, ../sass/_map.scss */
-.citycard .name {
-  clear: both;
-  padding-top: 10px;
-  text-shadow: none;
-}
-
-/* line 118, ../sass/_map.scss */
-.downarrow {
-  position: absolute;
-  bottom: 30px;
-  right: 40px;
-  opacity: 0;
-}
-
-/* line 125, ../sass/_map.scss */
-.downarrow svg {
-  color: #fff;
-  fill: #fff;
-  height: 100px;
-  width: 50px;
-}
-
-/* line 132, ../sass/_map.scss */
-.map {
-  color: #333;
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
-/* line 135, ../sass/_map.scss */
-.map .mapStories {
-  z-index: 0;
-  position: relative;
-  top: 0px;
-  left: 0px;
-}
-
-/* line 145, ../sass/_map.scss */
-.mapDropdown {
-  margin-top: 60px;
-}
-/* line 147, ../sass/_map.scss */
-.mapDropdown a {
-  background: #FCFCFC;
-  color: #4D4D4D;
-  border: none;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  padding: 8px;
-  margin-bottom: 17px;
-}
-/* line 155, ../sass/_map.scss */
-.mapDropdown a:hover {
-  background: #fff;
-  -webkit-box-shadow: 0px 0px 10px 5px #cccccc;
-  -moz-box-shadow: 0px 0px 10px 5px #cccccc;
-  box-shadow: 0px 0px 10px 5px #cccccc;
-  color: #000;
-}
-/* line 162, ../sass/_map.scss */
-.mapDropdown .gray.open a {
-  color: #6d6e71;
-}
-/* line 165, ../sass/_map.scss */
-.mapDropdown .gray.open p.dropdown-menu {
-  color: #6d6e71;
-}
-/* line 169, ../sass/_map.scss */
-.mapDropdown .open a {
-  background: #fff;
-  color: #e87d2b;
-  border: solid 1px #fff;
-  outline: none;
-}
-/* line 176, ../sass/_map.scss */
-.mapDropdown p.dropdown-menu {
-  color: #e87d2b;
-  width: 425px;
-  font-size: 14px;
-  font-weight: 500px;
-  text-shadow: none;
-  border: none;
-  padding: 20px;
-  border-radius: 0px;
-  margin: 10px 5px;
-}
-/* line 187, ../sass/_map.scss */
-.mapDropdown.gray a {
-  color: #6d6e71;
-}
-
-/* line 191, ../sass/_map.scss */
-#2011 {
-  background: pink;
-}
-
-/* line 196, ../sass/_map.scss */
-.mapStories .year {
-  font-size: 40px;
-  padding: 10px;
-  cursor: pointer;
-}
-
-/* line 202, ../sass/_map.scss */
-.marker-popup {
-  max-width: 600px;
-  width: 600px;
-  padding: 0px;
-}
-
-/* line 208, ../sass/_map.scss */
-.marker-popup h4 {
-  margin: 0px;
-}
-
-/* line 212, ../sass/_map.scss */
-.marker-popup .close {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  opacity: 0.8;
-  color: #fff;
-}
-
-/* line 220, ../sass/_map.scss */
-.marker-popup .prev {
-  position: absolute;
-  top: 100px;
-  left: -24px;
-  opacity: 0.8;
-  color: #fff;
-  height: 20px;
-  background: #333;
-  width: 10px;
-  padding: 20px 5px;
-  cursor: pointer;
-}
-
-/* line 233, ../sass/_map.scss */
-.marker-popup .next {
-  position: absolute;
-  top: 100px;
-  right: -24px;
-  opacity: 0.8;
-  color: #fff;
-  height: 20px;
-  background: #333;
-  width: 10px;
-  padding: 20px 5px;
-  cursor: pointer;
-}
-
-/* line 245, ../sass/_map.scss */
-.marker-popup .next:hover {
-  opacity: 1.0;
-}
-
-/* line 249, ../sass/_map.scss */
-.marker-popup .prev:hover {
-  opacity: 1.0;
-}
-
-/* line 253, ../sass/_map.scss */
-.fellowshipyearfixed {
-  position: fixed;
-  top: 0px;
-  left: 50px;
-  background: #fff;
-  display: inherit;
-}
-
-/* line 261, ../sass/_map.scss */
-.storyContainer {
-  position: absolute;
-  top: 50px;
-  right: 170px;
-  z-index: 99;
-  background: #e87d2b;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-}
-
-/* line 271, ../sass/_map.scss */
-.storyContainer p {
-  font-size: 13px;
-  color: #000;
-  display: block;
-  margin: 0;
-  padding: 0;
-  min-width: 138px;
-  padding: 10px;
-  text-decoration: none;
-  text-shadow: none;
-}
-
-/* line 283, ../sass/_map.scss */
-.yearText {
-  background: #fff;
-  font-size: 16px;
-}
-
-/* line 289, ../sass/_map.scss */
-.zoomer {
-  top: 210px;
-  left: 50px;
-}
-
-/* line 294, ../sass/_map.scss */
-.zoomin {
-  left: 50px;
-}
-
-/* line 298, ../sass/_map.scss */
-.zoomout {
-  top: 239px;
 }
 
 /*******************************************/
@@ -2904,6 +2551,13 @@ input[type="text"] {
   /* Safari */
 }
 
+@media only screen and (max-width: 480px) {
+  .page.quote,
+  .page.story {
+    padding: 250px 80px 200px 30px;
+  }
+}
+
 /* line 416, ../sass/base.scss */
 .page.story {
   /*padding: 80px 80px 100px;*/
@@ -3502,3 +3156,56 @@ img.progicons {
 .sharebutton iframe {
   min-height: auto;
 }
+
+
+/* Customized for Code for Seoul*/
+
+p {
+  line-height: 30px !important;
+}
+
+.navbar .brand {
+  padding: 6px 20px 14px 20px;
+}
+
+/* media query for mobile size */
+
+@media only screen and (max-width: 480px) {
+  .page.quote, .page.story {
+    padding-left: 0px;
+    padding-right: 50px;
+  }
+
+  .page.quote h1, .page.story h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .page.quote .title h1 {
+    margin-left: 0px;
+  }
+
+  .morefellows a {
+    line-height: 20px;
+    margin-top: 48px;
+  }
+
+  .morefellowspop {
+    width: 70px;
+  }
+
+  .span2.stats2013 {
+    display: none;
+  }
+
+  /* line 173, ../sass/_media.scss */
+  .sidebar {
+    display: none;
+  }
+  .getinvolved {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px 30px;
+  }
+}
+
