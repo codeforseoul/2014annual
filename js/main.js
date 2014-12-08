@@ -8,13 +8,17 @@ if (typeof console === "undefined" || typeof console.log === "undefined") {
 $(function(){
   var readytoshow = false;
   $('<img/>').attr('src', 'img/iphone.jpg').load(function() {
-    if(readytoshow)
+    if(readytoshow) {
       $("#loading").fadeOut({duration:1000});
+      console.log("fadein");
+    }
     readytoshow = true;
   });
   setTimeout(function(){
-    if(readytoshow)
+    if(readytoshow) {
       $("#loading").fadeOut({duration:1000});
+      console.log("fadeout");
+    }
     readytoshow = true;
   }, 1000);
   var usTopology;
