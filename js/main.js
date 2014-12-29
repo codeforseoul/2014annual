@@ -20,7 +20,7 @@ $(function(){
       console.log("fadeout");
     }
     readytoshow = true;
-  }, 1000);
+  }, 500);
   var usTopology;
   //shows nav when user hovers over the logo
   var height = $(window).height(),
